@@ -8,7 +8,13 @@ import Contact from './Contact';
 
 const App = () => {
   return (
-    <div>
+    <div style={{
+      backgroundImage: `url(${import.meta.env.BASE_URL}paper.png)`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed',
+      minHeight: '100vh'
+    }}>
       <div className="min-h-screen flex items-center justify-center p-10 pt-32">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
 
@@ -19,7 +25,7 @@ const App = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <img
-              src="/profile.png"
+              src={`${import.meta.env.BASE_URL}profile.png`}
               alt="Profile"
               className="w-full max-w-md h-auto object-cover rounded-2xl shadow-2xl border-4 border-black/10 transition-transform hover:scale-105 duration-300"
             />

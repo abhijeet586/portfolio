@@ -4,18 +4,18 @@ import ScrollReveal from './ScrollReveal';
 
 const Skills = () => {
     const skills = [
-        { imgUrl: "/javascript.svg", altText: "JavaScript" },
-        { imgUrl: "/react.svg", altText: "React" },
-        { imgUrl: "/tailwind.svg", altText: "Tailwind CSS" },
-        { imgUrl: "/nodejs.svg", altText: "Node.js" },
+        { imgUrl: `${import.meta.env.BASE_URL}javascript.svg`, altText: "JavaScript" },
+        { imgUrl: `${import.meta.env.BASE_URL}react.svg`, altText: "React" },
+        { imgUrl: `${import.meta.env.BASE_URL}tailwind.svg`, altText: "Tailwind CSS" },
+        { imgUrl: `${import.meta.env.BASE_URL}nodejs.svg`, altText: "Node.js" },
         { imgUrl: "https://cdn.simpleicons.org/express/000000", altText: "Express.js" },
         { imgUrl: "https://cdn.simpleicons.org/postgresql/4169E1", altText: "PostgreSQL" },
-        { imgUrl: "/cpp.svg", altText: "C++" },
-        { imgUrl: "/python.svg", altText: "Python" },
-        { imgUrl: "/java.svg", altText: "Java" },
-        { imgUrl: "/github.svg", altText: "GitHub" },
-        { imgUrl: "/html.svg", altText: "HTML5" },
-        { imgUrl: "/css.svg", altText: "CSS" },
+        { imgUrl: `${import.meta.env.BASE_URL}cpp.svg`, altText: "C++" },
+        { imgUrl: `${import.meta.env.BASE_URL}python.svg`, altText: "Python" },
+        { imgUrl: `${import.meta.env.BASE_URL}java.svg`, altText: "Java" },
+        { imgUrl: `${import.meta.env.BASE_URL}github.svg`, altText: "GitHub" },
+        { imgUrl: `${import.meta.env.BASE_URL}html.svg`, altText: "HTML5" },
+        { imgUrl: `${import.meta.env.BASE_URL}css.svg`, altText: "CSS" },
     ];
 
     return (

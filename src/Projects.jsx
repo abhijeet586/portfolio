@@ -25,7 +25,7 @@ const Projects = () => {
                         className="block"
                     >
                         <TiltedCard
-                            imageSrc="/project-1.jpg"
+                            imageSrc={`${import.meta.env.BASE_URL}project-1.jpg`}
                             altText="Ghost Writer Project"
                             captionText="Ghost Writer"
                             containerHeight="350px"
