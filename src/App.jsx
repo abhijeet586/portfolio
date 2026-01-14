@@ -25,7 +25,7 @@ const App = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <img
-              src={`${import.meta.env.BASE_URL}profile.png`}
+              src={`${import.meta.env.BASE_URL}Create_a_small_202601141759.gif`}
               alt="Profile"
               className="w-full max-w-md h-auto object-cover rounded-2xl shadow-2xl border-4 border-black/10 transition-transform hover:scale-105 duration-300"
             />
