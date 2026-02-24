@@ -46,10 +46,33 @@ const Projects = () => {
                         />
                     </a>
 
-                    {/* placeholder for more projects */}
-                    <div className="flex items-center justify-center w-[350px] h-[350px] border-2 border-dashed border-gray-400/50 rounded-[15px] bg-white/5 text-gray-500">
-                        <p>"EPOCH" Coming Soon</p>
-                    </div>
+                    <a
+                        href="https://github.com/abhijeet586/dyslexia-lens"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block"
+                    >
+                        <TiltedCard
+                            imageSrc={`${import.meta.env.BASE_URL}project-2.png`}
+                            altText="Dyslexia Lens Project"
+                            captionText="Dyslexia Lens"
+                            containerHeight="350px"
+                            containerWidth="350px"
+                            imageHeight="350px"
+                            imageWidth="350px"
+                            rotateAmplitude={12}
+                            scaleOnHover={1.1}
+                            showMobileWarning={false}
+                            showTooltip={true}
+                            displayOverlayContent={true}
+                            overlayContent={
+                                <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black/80 to-transparent w-full text-black-300 rounded-b-[15px]">
+                                    <h3 className="text-xl font-bold">Dyslexia Lens</h3>
+                                    <p className="text-sm opacity-80">AI-powered reading assistant for neurodivergent minds.</p>
+                                </div>
+                            }
+                        />
+                    </a>
 
                 </div>
             </ScrollReveal>
