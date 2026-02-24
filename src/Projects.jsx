@@ -25,13 +25,13 @@ const Projects = () => {
                         className="block"
                     >
                         <TiltedCard
-                            imageSrc={`${import.meta.env.BASE_URL}project-1.jpg`}
+                            imageSrc={`${import.meta.env.BASE_URL}project-1.png`}
                             altText="Ghost Writer Project"
                             captionText="Ghost Writer"
-                            containerHeight="350px"
-                            containerWidth="350px"
-                            imageHeight="350px"
-                            imageWidth="350px"
+                            containerHeight="280px"
+                            containerWidth="400px"
+                            imageHeight="280px"
+                            imageWidth="400px"
                             rotateAmplitude={12}
                             scaleOnHover={1.1}
                             showMobileWarning={false}
@@ -56,10 +56,10 @@ const Projects = () => {
                             imageSrc={`${import.meta.env.BASE_URL}project-2.png`}
                             altText="Dyslexia Lens Project"
                             captionText="Dyslexia Lens"
-                            containerHeight="350px"
-                            containerWidth="350px"
-                            imageHeight="350px"
-                            imageWidth="350px"
+                            containerHeight="280px"
+                            containerWidth="400px"
+                            imageHeight="280px"
+                            imageWidth="400px"
                             rotateAmplitude={12}
                             scaleOnHover={1.1}
                             showMobileWarning={false}

@@ -71,7 +71,8 @@ const TiltedCard = ({
                 <img
                     src={imageSrc}
                     alt={altText}
-                    className="absolute top-0 left-0 w-full h-full object-cover rounded-[15px] shadow-2xl"
+                    className="absolute top-0 left-0 w-full h-full object-contain rounded-[15px] shadow-2xl"
+                    style={{ backgroundColor: "#f0efed" }}
                 />
 
                 {displayOverlayContent && overlayContent && (
